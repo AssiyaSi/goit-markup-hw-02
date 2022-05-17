@@ -8,6 +8,7 @@
 --hightlight-color: #2196F3;
 --second-hightlight-color: #FFFFFF;
 --description-color: #757575;
+--title-color: #212121;
 }
 .link:hover,
 .link:focus {
@@ -23,7 +24,7 @@
 .body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    color: #212121;
+    color: var(--title-color);
 }
 .main-section {
     /*position: absolute;
@@ -40,7 +41,7 @@
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #2196F3;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /*text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);*/
 }
 .link-logo-black {
     font-family: 'Raleway', sans-serif;
@@ -49,14 +50,23 @@
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #000000;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /*text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);*/
 }
+.link-logo-white {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
 .menu-nav {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--title-color)
 }
 .mail {
     font-weight: 500;
@@ -166,15 +176,15 @@
 }
 /*Portfolio*/
 .filter-button {
-    font-family: 'Roboto';
+    /*font-family: 'Roboto';*/
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
-    background-color: F5F4FA;
+    color: var(--title-color);
+    background-color: #F5F4FA;
     cursor: pointer;
 }
 .filter-button:hover,
@@ -187,6 +197,7 @@
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    color: var(--title-color);
 }
 .projects {
 font-size: 16px;
@@ -208,6 +219,7 @@ color: var(--description-color);
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+    font-style: normal;
 }
 
 .fotter-mail {
@@ -215,6 +227,7 @@ color: var(--description-color);
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
 }
 
 .fotter-tel {
@@ -222,4 +235,5 @@ color: var(--description-color);
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
 }
